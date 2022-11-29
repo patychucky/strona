@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #FFE4E1;
+  }
+
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  #lewakolumna {
+    float: left;
+    width: 75%;
+  }
+  
+  #prawakolumna {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  #fakeimg {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 0.25rem; 
+  }
+  
+  #card {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+    #kolumna:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  #stopka {
+    text-align: center;
+    background: white;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .lewakolumna, .prawakolumna {
+      width: 100%;
+      padding: 0;
+    }
+  }
